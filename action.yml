@@ -29,7 +29,7 @@ runs:
   using: "composite"
   steps:
   - name: load UWLCM Singularity image
-    uses: igfuw/load_UWLCM_singularity_image@v0.1
+    uses: igfuw/load_UWLCM_singularity_image@v0.1b
     with:
       path: ${{ inputs.path }}/singularity_images
       tag: ${{ inputs.tag }}
